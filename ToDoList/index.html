@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="icon" type="image/png" href="./imagenes/task.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/app.js" defer></script> 
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>To Do List</h1>
+
+
+        <form action="#" id="userInput">
+            <input type="text" placeholder="Write a task here..." autofocus>
+            <input type="submit" value="+" id="addBtn">
+        </form>
+
+
+        <div id="list" class="list-container">
+
+        </div>
+
+        <p class="contador">
+            Pending tasks: <span id="pendientes">0</span>
+            Completed Tasks: <span id="completadas">0</span>
+        </p>
+
+</body>
+
+</html>
